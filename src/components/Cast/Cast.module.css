@@ -1,0 +1,21 @@
+.cast::before{
+	display: block;
+	content: "";
+	margin-bottom: 5px;
+	border-bottom: 1px solid black;
+	width: 100%;
+
+}
+.castList{
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.castItem{
+
+	width: calc((100% - 20px) / 3)
+}
+.castImage{
+	width: 100%;
+}

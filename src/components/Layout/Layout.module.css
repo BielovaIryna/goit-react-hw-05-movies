@@ -1,0 +1,19 @@
+.headerPage{
+	box-shadow: 0 1px 4px rgba(0,0,0,0.3), -23px 0 20px -23px rgba(0,0,0,0.8), 23px 0 20px -23px rgba(0,0,0,0.8), 0 0 40px rgba(0,0,0,0.1) inset; 
+}
+.nav{
+	text-align: center;
+}
+.navLink{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 500;
+	color: black;
+	padding: 25px;
+	transition: 2ms;
+	
+}
+.navItem:not(:last-child){
+	margin-right: 25px;
+}

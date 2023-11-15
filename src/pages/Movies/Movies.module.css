@@ -1,0 +1,13 @@
+.moviesInput>input, .moviesSubmit{
+	padding: 5px 10px;
+	border-radius: 10px;
+	border: 2px;
+	font-size: 16px;
+	
+}
+.moviesInput>input{
+	min-width: 100px;
+}
+.moviesSubmit{
+	margin-left: 10px;
+}

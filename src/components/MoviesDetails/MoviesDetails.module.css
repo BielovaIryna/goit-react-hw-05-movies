@@ -1,0 +1,41 @@
+
+
+.goBackLink{
+	display: block;
+	padding: 5px 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-bottom: 25px;
+	width: 100px;
+	border: 1px solid black;
+	text-align: center;
+}
+.goBackLink:hover, .goBackLink:focus { 
+	background-color: rgba(244,  21,  235, 0.78);
+}
+.movieWrapper{
+	
+	display: flex;
+	gap: 20px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+
+.poster{
+	display: block;
+	width: 30vw;
+	
+}
+.addInfo{
+	margin-bottom: 10px;
+}
+.addInfoItem:not(:last-child){
+margin-bottom: 10px;
+}
+.addInfoLink{
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+.addInfoLink:hover, .addInfoLink:focus{
+	color: rgba(244,  21,  235, 0.78);
+}

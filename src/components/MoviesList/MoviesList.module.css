@@ -1,0 +1,18 @@
+.moviesList{
+	list-style-type: "\2605";
+}
+.moviesItem{
+	padding-left: 10px;
+}
+.moviesItem:not(:last-child){
+	margin-bottom: 10px;
+}
+.moviesLink{
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+	transition: 2ms;
+}
+.moviesLink:hover, .moviesLink:focus{
+	color:rgba(244,  21,  235, 0.78);
+}

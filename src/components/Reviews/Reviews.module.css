@@ -1,0 +1,9 @@
+.reviews::before{
+display: block;
+content: "";
+margin-bottom: 5px;
+border-bottom: 1px solid black;
+width: 100%;}
+.reviewsItem:not(:last-child){
+	margin-bottom: 10px;
+}
