@@ -5,7 +5,7 @@ const Layout =({children})=>{
 		<>
 			<header className={css.headerPage}>
 				<nav className={css.nav}>
-					<NavLink className={css.navLink} to ="/">Home</NavLink>
+					<NavLink className={css.navLink} to ="/" end>Home</NavLink>
 					<NavLink className={css.navLink} to ="/movies">Movies</NavLink>
 
 				</nav>
