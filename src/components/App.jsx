@@ -5,7 +5,7 @@ import Loader from './Loader/Loader';
 
 const Movies = lazy(() => import('pages/Movies/Movies'));
 const Home = lazy(() => import('pages/Home/Home'));
-const MoviesDetails = lazy(() => import('./MoviesDetails/MoviesDetails'));
+const MoviesDetails = lazy(() => import('../pages/MoviesDetails/MoviesDetails'));
 
 export const App = () => {
   return (
